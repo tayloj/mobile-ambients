@@ -1,0 +1,4762 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="cludg.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<title>
+mobile-ambients</title>
+</head>
+<body>
+<div id="navbar">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<colgroup span="3">
+<col width="0*"/>
+<col width="0*"/>
+<col width="1*"/>
+</colgroup>
+<tr>
+<td align="left" valign="baseline">
+<br/>
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td align="left" valign="baseline">
+<span class="upchain">
+<b>
+mobile-ambients</b>
+<br/>
+<a href="index.html">
+Index</a>
+</span>
+&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table>
+</div>
+<div class="cludg-doc-body">
+<h2>
+mobile-ambients
+</h2>
+<table style="width: 100%;" class="summary-table">
+<tr class="table-heading-color">
+<th class="summary" colspan="2">
+Class summary</th>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7164">
+action</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7160">
+ambient</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7157"><em class="cl">composition</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7213">
+ambient-manager</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7208"><em class="cl">manager</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7141">
+capability</a>
+</td>
+<td class="summary">
+</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7157">
+composition</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7167">
+computation</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7143">
+in</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7141"><em class="cl">capability</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7154">
+inactive</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7169">
+input</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7208">
+manager</a>
+</td>
+<td class="summary">
+</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7155">
+named</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7147">
+open</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7141"><em class="cl">capability</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7145">
+out</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7141"><em class="cl">capability</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7171">
+output</a>
+</td>
+<td class="summary">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7152">
+process</a>
+</td>
+<td class="summary">
+</td>
+</tr>
+</table>
+<table style="width: 100%;" class="summary-table">
+<tr class="table-heading-color">
+<th class="summary" colspan="2">
+Method summary</th>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7166">
+action-capability</a>
+</td>
+<td class="summary">
+action</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7240">
+action-evolutions</a>
+</td>
+<td class="summary">
+capability action</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7165">
+action-process</a>
+</td>
+<td class="summary">
+action</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7162">
+ambient-name</a>
+</td>
+<td class="summary">
+ambient</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7161">
+ambient-processes</a>
+</td>
+<td class="summary">
+ambient</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7142">
+capability-name</a>
+</td>
+<td class="summary">
+capability</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7236">
+cleanup</a>
+</td>
+<td class="summary">
+process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7158">
+composition-processes</a>
+</td>
+<td class="summary">
+composition</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7168">
+computation-function</a>
+</td>
+<td class="summary">
+computation</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7237">
+evolutions</a>
+</td>
+<td class="summary">
+process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7144">
+in-name</a>
+</td>
+<td class="summary">
+in</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7170">
+input-process-matrix</a>
+</td>
+<td class="summary">
+input</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7235">
+launch-process</a>
+</td>
+<td class="summary">
+process <em>&amp;optional</em> parent</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7217">
+mr-agents</a>
+</td>
+<td class="summary">
+ambient-manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7216">
+mr-ambients</a>
+</td>
+<td class="summary">
+ambient-manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7215">
+mr-inputs</a>
+</td>
+<td class="summary">
+ambient-manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7210">
+mr-lock</a>
+</td>
+<td class="summary">
+manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7211">
+mr-managee</a>
+</td>
+<td class="summary">
+manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7218">
+mr-name</a>
+</td>
+<td class="summary">
+ambient-manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7214">
+mr-outputs</a>
+</td>
+<td class="summary">
+ambient-manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7212">
+mr-parent</a>
+</td>
+<td class="summary">
+manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7156">
+named-name</a>
+</td>
+<td class="summary">
+named</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7148">
+open-name</a>
+</td>
+<td class="summary">
+open</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7146">
+out-name</a>
+</td>
+<td class="summary">
+out</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7172">
+output-capability</a>
+</td>
+<td class="summary">
+output</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7197">
+precedence</a>
+</td>
+<td class="summary">
+process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7173">
+process-children</a>
+</td>
+<td class="summary">
+process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7153">
+process-parent</a>
+</td>
+<td class="summary">
+process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7191">
+write-process</a>
+</td>
+<td class="summary">
+stream process</td>
+</tr>
+</table>
+<table style="width: 100%;" class="summary-table">
+<tr class="table-heading-color">
+<th class="summary" colspan="2">
+Function summary</th>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7184">
+amb</a>
+</td>
+<td class="summary">
+name <em>&amp;rest</em> processes</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7176">
+apply-capability</a>
+</td>
+<td class="summary">
+capability process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7175">
+cap</a>
+</td>
+<td class="summary">
+capability process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7177">
+in</a>
+</td>
+<td class="summary">
+name <em>&amp;optional</em> (process (zero))</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7222">
+insert-into</a>
+</td>
+<td class="summary">
+manager new-parent</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7149">
+in^</a>
+</td>
+<td class="summary">
+name</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7185">
+make-fun</a>
+</td>
+<td class="summary">
+function</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7187">
+make-input</a>
+</td>
+<td class="summary">
+function</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7182">
+named</a>
+</td>
+<td class="summary">
+name</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7179">
+open</a>
+</td>
+<td class="summary">
+name <em>&amp;optional</em> (process (zero))</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7151">
+open^</a>
+</td>
+<td class="summary">
+name</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7178">
+out</a>
+</td>
+<td class="summary">
+name <em>&amp;optional</em> (process (zero))</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7189">
+output</a>
+</td>
+<td class="summary">
+capability</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7150">
+out^</a>
+</td>
+<td class="summary">
+name</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7183">
+par</a>
+</td>
+<td class="summary">
+<em>&amp;rest</em> processes</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7174">
+process-siblings</a>
+</td>
+<td class="summary">
+process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7223">
+remove-from</a>
+</td>
+<td class="summary">
+manager old-parent</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7248">
+run-process</a>
+</td>
+<td class="summary">
+process <em>&amp;optional</em> (printp t)</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7219">
+wait</a>
+</td>
+<td class="summary">
+manager <em>&amp;optional</em> wait-reason</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7221">
+wait-for-parent</a>
+</td>
+<td class="summary">
+manager</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7181">
+zero</a>
+</td>
+<td class="summary">
+</td>
+</tr>
+</table>
+<table style="width: 100%;" class="summary-table">
+<tr class="table-heading-color">
+<th class="summary" colspan="2">
+Macro summary</th>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7186">
+fun</a>
+</td>
+<td class="summary">
+<em>&amp;body</em> body</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7188">
+input</a>
+</td>
+<td class="summary">
+name <em>&amp;body</em> body</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7180">
+new</a>
+</td>
+<td class="summary">
+names <em>&amp;body</em> process</td>
+</tr>
+<tr class="table-row-color">
+<td class="summary-name">
+<a href="mobile-ambients.html#_g7220">
+with-lock-notifying</a>
+</td>
+<td class="summary">
+(manager <em>&amp;rest</em> args) <em>&amp;body</em> body</td>
+</tr>
+</table>
+<div class="defpackage">
+<div class="defunsignatures">
+<a id="_g7135">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+MOBILE-AMBIENTS&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Package]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The mobile-ambients package exports symbols that 
+ comprise an interface to a mobile ambient library. Various kinds of 
+ <a href="mobile-ambients.html#_g7152">
+process</a>
+are implemented as CLOS classes, including 
+ <a href="mobile-ambients.html#_g7157">
+composition</a>
+, <a href="mobile-ambients.html#_g7160">
+ambient</a>
+, 
+ <a href="mobile-ambients.html#_g7154">
+inactive</a>
+, processes encapsulating arbitrary Lisp 
+ <a href="mobile-ambients.html#_g7167">
+computation</a>
+, and of course, <a href="mobile-ambients.html#_g7164">
+action</a>
+
+ processes prefixed with one or more <a href="mobile-ambients.html#_g7141">
+capability</a>
+
+ objects. Once a process is constructed, it can be run with 
+ <a href="mobile-ambients.html#_g7248">
+run-process</a>
+. New types of <a href="mobile-ambients.html#_g7152">
+process</a>
+may 
+ be defined by including <a href="mobile-ambients.html#_g7152">
+process</a>
+as a superclass, and 
+ defining an <a href="mobile-ambients.html#_g7237">
+evolutions</a>
+method to specify how it can 
+ evolve. 
+ </p>
+</div>
+</div>
+<div class="defpackage">
+<div class="defunsignatures">
+<a id="_g7136">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+MOBILE-AMBIENTS-USER&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Package]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The mobile-ambient-user package USEs 
+ mobile-ambients and COMMON-LISP, and may be useful for testing and 
+ interactive development. The library of examples are all defined in 
+ the mobile-ambient-user package. 
+ </p>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7141">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Capabilities are objects that can be prefixed to 
+ processes, producing actions. Though capabilities are often spoken of 
+ as granting some permission to a process, capabilites also cause the 
+ process to block until the permitted act is performed (though other 
+ processes within the enclosing ambient may continue to run). 
+ </p>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The ambient name associated with the capability. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7142">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+capability-name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+capability</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the name of the specified capability 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7143">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+in&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7141"><em class="cl">capability</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+In capabilities require a process's enclosing 
+ ambient to enter an ambient with the specified name before 
+ the process may proceed. 
+ </p>
+</div>
+<div class="defclass-initargs">
+</div>
+<div class="defclass-slots-doc">
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7144">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+in-name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+in</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the name of the specified in 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7145">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+out&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7141"><em class="cl">capability</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Out capabilities require a process's enclosing 
+ ambient to enter leave an ambient with the specified name before the 
+ process may proceed. 
+ </p>
+</div>
+<div class="defclass-initargs">
+</div>
+<div class="defclass-slots-doc">
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7146">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+out-name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+out</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the name of the specified out 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7147">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+open&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7141"><em class="cl">capability</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Open capabilities require that a sibling of the 
+ capable process that is an ambient with the specified name be opened 
+ before the capable process may proceed. 
+ </p>
+</div>
+<div class="defclass-initargs">
+</div>
+<div class="defclass-slots-doc">
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7148">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+open-name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+open</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the name of the specified open 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7152">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Processes correspond to mobile ambient expressions. 
+ Each process is either top-level (in which case its parent slot is 
+ unbound) or a child process or a composition (of which ambients are 
+ subclasses) or an action. 
+ </p>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:parent&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+parent&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The parent slot of a process is either unbound or 
+ another process, typically a composition, an ambient, or an action. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7153">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+process-parent&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the parent of the specified process 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7154">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+inactive&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+An inactive process is the null process. This is a 
+ class rather than a priviliged individual because it may be useful to 
+ distinguish particular inactive processes. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7181">
+zero</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7155">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+named&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The named process is useful for working out 
+ theoretical examples and for debugging purposes. A named process is 
+ is printed using its name, but never evolves. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7182">
+named</a>
+
+ </p>
+</li>
+</ul>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+This class is used for working out examples. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7156">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+named-name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+named</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the name of the specified named 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7157">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+composition&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A composition is a parallel composition of 
+ processes. Each process in the composition has the composition as its 
+ parent, and all the processes in the composition as its siblings. 
+ Parallel composition is also provided by <a href="mobile-ambients.html#_g7160">
+ambient</a>
+. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7183">
+par</a>
+
+ </p>
+</li>
+</ul>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:processes&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+processes&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A list of processes in the parallel composition. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7158">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+composition-processes&nbsp;&nbsp;</td>
+<td class="lambda-list">
+composition</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the processes of the specified composition 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7160">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+ambient&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7157"><em class="cl">composition</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Ambients are named locations in which processes may 
+ be composed in parallel. Ambients are genuine compositions, but, 
+ since they are identified by names, can also be entered, exited, 
+ opened, and can enter and exit other ambients when processes with 
+ specific capabilities are present. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7184">
+amb</a>
+
+ </p>
+</li>
+</ul>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The name of the ambient. Ambient names are 
+ arbitrary Lisp objects that will be compared with eql. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7161">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+ambient-processes&nbsp;&nbsp;</td>
+<td class="lambda-list">
+ambient</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the processes of the specified ambient 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7162">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+ambient-name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+ambient</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the name of the specified ambient 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7164">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+action&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Actions are processes prefixed with capabilities. 
+ The process is blocked until the capability can be realized. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7177">
+in</a>
+, <a href="mobile-ambients.html#_g7178">
+out</a>
+, 
+ <a href="mobile-ambients.html#_g7179">
+open</a>
+, <a href="mobile-ambients.html#_g7175">
+cap</a>
+
+ </p>
+</li>
+</ul>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The capability that must be realized before the 
+ action's process may proceeed. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The process that is blocked until the capability 
+ is realized. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7165">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+action-process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+action</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the process of the specified action 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7166">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+action-capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+action</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the capability of the specified action 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7167">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+computation&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A computation process is an extension to the theory 
+ of mobile ambients, and is the key way in which Common Lisp is 
+ integrated into mobile ambient processes. A computation process 
+ evolves by invoking the computation's function. If the result of this 
+ invocation is a process, the computation evolves as the result, 
+ otherwise as an <a href="mobile-ambients.html#_g7154">
+inactive</a>
+process. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7186">
+fun</a>
+, <a href="mobile-ambients.html#_g7185">
+make-fun</a>
+
+ </p>
+</li>
+</ul>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:function&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+function&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The function to be invoked that allows the process 
+ to continue. When the process evolves by invocation of this function, 
+ if the result of the function is another process, that process 
+ replaces the computation. Otherwise, an inactive process replaces the 
+ computation. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7168">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+computation-function&nbsp;&nbsp;</td>
+<td class="lambda-list">
+computation</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the function of the specified computation 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7169">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+input&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Input processes read a value from some sibling 
+ output process, and evolve as a new process in which the value is 
+ available. Internally, the input process has a function of one 
+ argument which is invoked with a received value when one becomes 
+ available. The function should produces a process, and it as this 
+ process that the input process evolves. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7188">
+input</a>
+, <a href="mobile-ambients.html#_g7187">
+make-input</a>
+
+ </p>
+</li>
+</ul>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+process-matrix&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A function of one argument, a capability, that 
+ should return a process. When an input value becomes available, this 
+ functin is invoked with the value, and the input process evolves as 
+ the new process. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7170">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+input-process-matrix&nbsp;&nbsp;</td>
+<td class="lambda-list">
+input</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the process-matrix of the specified input 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7171">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+output&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7152"><em class="cl">process</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Output processes emit a value when an input process 
+ is available within the same enclosing composition and then evolve to 
+ an inactive process (output in mobile ambients is asynchronous). 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7189">
+output</a>
+
+ </p>
+</li>
+</ul>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The capability that will be output by the output 
+ process, either a capability object, or an ambient name. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7172">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+output-capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+output</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the capability of the specified output 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7208">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+manager&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:managee&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+parent&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The parent of the manager. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+managee&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The process being managed. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+lock&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A lock for the managed process. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+changedp&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A condition variable signalled when manager changes. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7210">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-lock&nbsp;&nbsp;</td>
+<td class="lambda-list">
+manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the lock of the specified manager 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7211">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-managee&nbsp;&nbsp;</td>
+<td class="lambda-list">
+manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the managee of the specified manager 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7212">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-parent&nbsp;&nbsp;</td>
+<td class="lambda-list">
+manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the parent of the specified manager 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defclass">
+<div class="defunsignatures">
+<a id="_g7213">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+ambient-manager&nbsp;&nbsp;</td>
+<td class="lambda-list">
+inherits from <a href="mobile-ambients.html#_g7208"><em class="cl">manager</em></a></td>
+<td class="symbol-type">
+&nbsp;[Class]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="defclass-initargs">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+:name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Initarg]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="defclass-slots-doc">
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The name of the managed object. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+agents&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A list of the agents managed by the ambient. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+ambients&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A list of the ambients contained in the ambient. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+inputs&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A list of the input processes in ambient. 
+ </p>
+</div>
+</div>
+<div>
+<div>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+outputs&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Slot]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A list of the output processes in ambient. 
+ </p>
+</div>
+</div>
+</div>
+<div class="defclass-generics">
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7214">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-outputs&nbsp;&nbsp;</td>
+<td class="lambda-list">
+ambient-manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the outputs of the specified ambient-manager 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7215">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-inputs&nbsp;&nbsp;</td>
+<td class="lambda-list">
+ambient-manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the inputs of the specified ambient-manager 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7216">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-ambients&nbsp;&nbsp;</td>
+<td class="lambda-list">
+ambient-manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the ambients of the specified ambient-manager 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7217">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-agents&nbsp;&nbsp;</td>
+<td class="lambda-list">
+ambient-manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns and (with setf) changes the agents of the specified ambient-manager 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7218">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+mr-name&nbsp;&nbsp;</td>
+<td class="lambda-list">
+ambient-manager</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+Returns the name of the specified ambient-manager 
+ </p>
+</div>
+</div>
+</div>
+</div>
+<div class="defparam">
+<div class="defunsignatures">
+<a id="_g7190">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+*mobile-ambient-pprint-dispatch*&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Variable]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+A pprint-dispatch-table used for pretty printing processes and 
+ capabilities. print-object methods are defined for the standard 
+ <a href="mobile-ambients.html#_g7152">
+process</a>
+and <a href="mobile-ambients.html#_g7141">
+capability</a>
+object that 
+ pretty print the object to the stream (within 
+ print-unreadable-object) using this pprint dispatch. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7191">
+write-process</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7197">
+precedence</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defparam">
+<div class="defunsignatures">
+<a id="_g7196">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+*precedence*&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Variable]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+The precedence of the process being printed by 
+ write-process. Precedence values are automatically computed 
+ by <a href="mobile-ambients.html#_g7197">
+precedence</a>
+and bound within an <span class="keyword">
+:around </span>
+
+ method on <a href="mobile-ambients.html#_g7191">
+write-process</a>
+. It is not 
+ expected that this value would be manually modified. The 
+ initial value is 0. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7173">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+process-children&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+process-children process =&gt; children 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+children---a list of processes 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Process-children returns the children of process that can be currently 
+ running within process. For ambients and compositions, this is simply 
+ the list of composed processes, for others, the empty list. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7191">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+write-process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+stream process</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+write-process stream process =&gt; 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+stream---an output stream 
+ </p>
+</li>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+write-process is responsible for writing a pretty representation of 
+ the process to stream. write-process is installed as the 
+ pprint-dispatch in <a href="mobile-ambients.html#_g7190">
+*mobile-ambient-pprint-dispatch*</a>
+
+ for <a href="mobile-ambients.html#_g7141">
+capability</a>
+and <a href="mobile-ambients.html#_g7152">
+process</a>
+objects. 
+ In turn, print-object methods have been defined for these same classes 
+ that write the objects to a stream (within print-unreadable-object) 
+ using the mobile ambient pprint dispatch table. When defining a new 
+ type of process or capability, defining appropriate write-process 
+ methods should make the new processes print nicely. There is a 
+ default <span class="keyword">
+:around </span>
+method that, in conjunction with 
+ <a href="mobile-ambients.html#_g7197">
+precedence</a>
+ensure that parentheses are printed 
+ around processes where appropriate. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7197">
+precedence</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7190">
+*mobile-ambient-pprint-dispatch*</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7197">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+precedence&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+precedence process =&gt; precedence, ambiguousp 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+precedence---a positive number 
+ </p>
+</li>
+<li>
+<p>
+ambiguousp---a boolean 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+precedence returns enough information to, in conjunction with the 
+ value of <a href="mobile-ambients.html#_g7196">
+*precedence*</a>
+, determine whether a pretty 
+ printing of process should be surrounded by parentheses. If a 
+ process's precedence is less than its parent's, or if it has the same 
+ precedence, but ambigousp is true, then the process is surrounded by 
+ parentheses. 
+ </p>
+<p>
+Methods are defined for all of the built in processes, and have the 
+ following behavior. For <a href="mobile-ambients.html#_g7157">
+composition</a>
+processes, 
+ precedence returns 4 and false if the composition has at most one 
+ process, and 2 and true otherwise. For all of the following classes, 
+ precedence returns 4 and true. 
+ </p>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7154">
+inactive</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7155">
+named</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7160">
+ambient</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7167">
+computation</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7169">
+input</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7171">
+output</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7164">
+action</a>
+
+ </p>
+</li>
+</ul>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7191">
+write-process</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7190">
+*mobile-ambient-pprint-dispatch*</a>
+
+ </p>
+</li>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7196">
+*precedence*</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7235">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+launch-process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process <em>&amp;optional</em> parent</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+launch-process process &amp;optional parent =&gt; 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a process 
+ </p>
+</li>
+<li>
+<p>
+parent---an ambient-manager or nil 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+launch-process starts the process in the provided parent, or on its 
+ own if the parent is nil. (Some methods, i.e., those for processes 
+ which require a parent, require that the parent argument is non-nil.) 
+ The value of launch-process is not used by any of the standard code, 
+ and no requirements are imposed on the values returned by 
+ programmer-defined methods. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7236">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+cleanup&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+cleanup process =&gt; results* 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+cleanup is responsible for cleaning processes by performing trivial 
+ transformations not significant enough to merit full evolutions. 
+ Cleanup, for the standard process types, removes inactive processes 
+ and from compositions (including ambients) and moves any processes 
+ from a non-ambient composition whose parent is a composition 
+ (including ambients) into its parent and removes the contained 
+ composition. Cleanup also cleans up subprocesses, even those which 
+ could not progress on their own (e.g., those with a capability prefix 
+ that cannot currently be executed). <a href="mobile-ambients.html#_g7248">
+run-process</a>
+calls 
+ cleanup before the intial computation of evolutions, and between 
+ evolutions. 
+ </p>
+<h4>
+Examples: </h4>
+<pre>
+     (setq process 
+            (amb 'k 
+              (in 'n (par (par (named 'P) (zero)))) 
+              (out 'm (par (named 'Q) (par) (named 'R) (par))))) 
+     =&gt; #&lt;K[in N.(P | 0) | out M.(Q |  | R | )]&gt; 
+     (cleanup process) =&gt; unspecified 
+     process =&gt; #&lt;K[in N.P | out M.(Q | R)]&gt; </pre>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7248">
+run-process</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7237">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+evolutions&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+evolutions process =&gt; evolutions 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+evolutions---a list of functions of no arguments 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+evolutions returns a list of functions of no arguments any of which 
+ when invoked will (destructively) evolve process by one step. Since 
+ the evolutions destructively modify process, there is no guarantee 
+ that any of them will be appropriate to call after one of them has 
+ been called. 
+ </p>
+<p>
+methods on evolutions have been defined for the built in types of 
+ processes. For instance, (evolutions ((i <a href="mobile-ambients.html#_g7154">
+inactive</a>
+))) 
+ returns the empty list, since an inactive process may never evolve. 
+ (evolutions ((c <a href="mobile-ambients.html#_g7157">
+composition</a>
+))) returns a list 
+ containing all of the evolutions of its composed processes. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7240">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+action-evolutions&nbsp;&nbsp;</td>
+<td class="lambda-list">
+capability action</td>
+<td class="symbol-type">
+&nbsp;[Generic&nbsp;function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+action-evolutions capability action =&gt; evolutions 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+capability---a <a href="mobile-ambients.html#_g7141">
+capability</a>
+
+ </p>
+</li>
+<li>
+<p>
+action---an <a href="mobile-ambients.html#_g7164">
+action</a>
+process 
+ </p>
+</li>
+<li>
+<p>
+evolutions---a list of functions of no arguments 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+action-evolutions is called by the <a href="mobile-ambients.html#_g7237">
+evolutions</a>
+method 
+ for actions. An action-evolutions method should be defined for each 
+ capability type. Methods are defined for the standard capabilities 
+ <a href="mobile-ambients.html#_g7143">
+in</a>
+, <a href="mobile-ambients.html#_g7145">
+out</a>
+, and <a href="mobile-ambients.html#_g7147">
+open</a>
+. 
+ When the evolutions method for action calls action-evolutions with the 
+ action's capability and the action, and returns its results. 
+ </p>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7237">
+evolutions</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7149">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+in^&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+in^ name =&gt; in-capability 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an ambient name 
+ </p>
+</li>
+<li>
+<p>
+in-capability---an in capability 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Return an in capability with the specified name. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7150">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+out^&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+out^ name =&gt; out-capability 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an ambient name 
+ </p>
+</li>
+<li>
+<p>
+out-capability---an out capability 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Return an out capability with the specified name. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7151">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+open^&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+open^ name =&gt; open-capability 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an ambient name 
+ </p>
+</li>
+<li>
+<p>
+open-capability---an open capability 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Return an open capability with the specified name. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7174">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+process-siblings&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+process-siblings process =&gt; siblings 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+siblings---a list of processes 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Returns the children of process's parent. No check is made to ensure 
+ that process's parent is bound or a process. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7175">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+cap&nbsp;&nbsp;</td>
+<td class="lambda-list">
+capability process</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<p>
+An abbreviation for <a href="mobile-ambients.html#_g7176">
+apply-capability</a>
+. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7176">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+apply-capability&nbsp;&nbsp;</td>
+<td class="lambda-list">
+capability process</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+apply-capability capability process =&gt; result 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+capability---a <a href="mobile-ambients.html#_g7141">
+capability</a>
+or list of capabilities 
+ </p>
+</li>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+result---an <a href="mobile-ambients.html#_g7164">
+action</a>
+process 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Returns process prefixed by the given capability or capabilities in 
+ the order that they are provided. I.e., the last capability is 
+ prefixed to process, then the next to last capability is prefixed to 
+ that, and so on. If no capabilities are provided, process is 
+ returned directly. 
+ </p>
+<h4>
+Notes: </h4>
+<p>
+In the mobile ambients theory, capability paths are a kind of 
+ capability. We do not introduce capability paths, opting to use lists 
+ of capabilities instead. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7177">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+in&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name <em>&amp;optional</em> (process (zero))</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+in name [process] =&gt; action 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an ambient name 
+ </p>
+</li>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+, the default is an inactive process 
+ </p>
+</li>
+<li>
+<p>
+action---an <a href="mobile-ambients.html#_g7164">
+action</a>
+process 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+In returns an action process with an in capability with the given name 
+ and process. If no process is provided, an inactive process is 
+ created by (zero). 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7178">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+out&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name <em>&amp;optional</em> (process (zero))</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+out name [process] =&gt; action 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an ambient name 
+ </p>
+</li>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+, the default is an inactive process 
+ </p>
+</li>
+<li>
+<p>
+action---an <a href="mobile-ambients.html#_g7164">
+action</a>
+process 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Out returns an action process with an out capability with the given name 
+ and process. If no process is provided, an inactive process is 
+ created by (zero). 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7179">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+open&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name <em>&amp;optional</em> (process (zero))</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+open name [process] =&gt; action 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an ambient name 
+ </p>
+</li>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+, the default is an inactive process 
+ </p>
+</li>
+<li>
+<p>
+action---an <a href="mobile-ambients.html#_g7164">
+action</a>
+process 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Open returns an action process with an open capability with the given name 
+ and process. If no process is provided, an inactive process is 
+ created by (zero). 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7181">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+zero&nbsp;&nbsp;</td>
+<td class="lambda-list">
+</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+zero =&gt; inactive-process 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+inactive-process---a new <a href="mobile-ambients.html#_g7154">
+inactive</a>
+process 
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7182">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+named&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+named name =&gt; named-process 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an object 
+ </p>
+</li>
+<li>
+<p>
+named-process---a new <a href="mobile-ambients.html#_g7155">
+named</a>
+process named name 
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7183">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+par&nbsp;&nbsp;</td>
+<td class="lambda-list">
+<em>&amp;rest</em> processes</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+par process* =&gt; composition 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+composition---a <a href="mobile-ambients.html#_g7157">
+composition</a>
+of the processes 
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7184">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+amb&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name <em>&amp;rest</em> processes</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+amb name process* =&gt; ambient 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---an object 
+ </p>
+</li>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+ambient---an <a href="mobile-ambients.html#_g7160">
+ambient</a>
+
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+amb returns an ambient named named containing the processes. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7185">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+make-fun&nbsp;&nbsp;</td>
+<td class="lambda-list">
+function</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+make-fun function =&gt; computation 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+function---a function of no arguments 
+ </p>
+</li>
+<li>
+<p>
+computation---a <a href="mobile-ambients.html#_g7167">
+computation</a>
+
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+make-fun returns a computation whose function is function. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7187">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+make-input&nbsp;&nbsp;</td>
+<td class="lambda-list">
+function</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+make-input function =&gt; input 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+function---a function of one argument 
+ </p>
+</li>
+<li>
+<p>
+input---an <a href="mobile-ambients.html#_g7169">
+input</a>
+process 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+make-input returns a input process with the specified function. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7189">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+output&nbsp;&nbsp;</td>
+<td class="lambda-list">
+capability</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+output capability =&gt; output 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+capability---an object 
+ </p>
+</li>
+<li>
+<p>
+output---an <a href="mobile-ambients.html#_g7171">
+output</a>
+process 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+output returns an output process that outputs the specified 
+ capability, which is expected to be a capability, a list of 
+ capabilities, or an object (an ambient name). 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7219">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+wait&nbsp;&nbsp;</td>
+<td class="lambda-list">
+manager <em>&amp;optional</em> wait-reason</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+wait manager &amp;key wait-reason =&gt; wakep 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+manager---a manager 
+ </p>
+</li>
+<li>
+<p>
+wait-reason---a string, or nil 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Wait (using mp:condition-variable-wait) for the manager's changedp 
+ condition variable. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7221">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+wait-for-parent&nbsp;&nbsp;</td>
+<td class="lambda-list">
+manager</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+wait-for-parent manager =&gt; parent 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+manager, parent---managers 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+Waits until the manager has a non-nil parent and returns it. Because 
+ the manager's lock is released after wait-for-parent returns, the 
+ caller is responsible for ensuring that manager is actually a child of 
+ the returned parent when then parent is used. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7222">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+insert-into&nbsp;&nbsp;</td>
+<td class="lambda-list">
+manager new-parent</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+insert-into manager new-parent 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+manager---a manager 
+ </p>
+</li>
+<li>
+<p>
+new-parent---an ambient-manager 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+insert-into sets the manager's parent to new-parent and adds manager 
+ to new-parent's list of ambients if manager is an ambient-manager or 
+ else to new-parent's list of agents. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7223">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+remove-from&nbsp;&nbsp;</td>
+<td class="lambda-list">
+manager old-parent</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+remove-from manager new-parent 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+manager---a manager 
+ </p>
+</li>
+<li>
+<p>
+new-parent---an ambient-manager 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+remove-from sets the manager's parent to nil and deletes manager from 
+ new-parent's list of ambients if manager is an ambient-manager or else 
+ from new-parent's list of agents. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7248">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+run-process&nbsp;&nbsp;</td>
+<td class="lambda-list">
+process <em>&amp;optional</em> (printp t)</td>
+<td class="symbol-type">
+&nbsp;[Function]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+run-process process [printp] =&gt; process 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+process---a <a href="mobile-ambients.html#_g7152">
+process</a>
+
+ </p>
+</li>
+<li>
+<p>
+printp---a generalized boolean, default is true 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+run-process runs the process by doing the following: 
+ </p>
+<ul>
+<li>
+<p>
+When printp is true, print process. 
+ </p>
+</li>
+<li>
+<p>
+Compute the <a href="mobile-ambients.html#_g7237">
+evolutions</a>
+of process. 
+ </p>
+</li>
+<li>
+<p>
+If there are no evolutions, return process. 
+ </p>
+</li>
+<li>
+<p>
+Randomly select one of the evolutions and invoke it. 
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7180">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+new&nbsp;&nbsp;</td>
+<td class="lambda-list">
+names <em>&amp;body</em> process</td>
+<td class="symbol-type">
+&nbsp;[Macro]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+new (var*) declaration* form* =&gt; result* 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+var---a symbol naming a variable not evaluated 
+ </p>
+</li>
+<li>
+<p>
+declaration---a declare expression, not evaluated 
+ </p>
+</li>
+<li>
+<p>
+form---a form 
+ </p>
+</li>
+<li>
+<p>
+results---the values returned by the forms 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+New binds the variables to new symbols that can be used within forms. 
+ Since ambient names are Lisp objects comparable via eql, fresh symbols 
+ serve as suitable, fresh, new names for ambients. 
+ </p>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7186">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+fun&nbsp;&nbsp;</td>
+<td class="lambda-list">
+<em>&amp;body</em> body</td>
+<td class="symbol-type">
+&nbsp;[Macro]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+fun [[declaration* | documentation]] form* =&gt; computation 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+declaration---a declare expression; not evaluated 
+ </p>
+</li>
+<li>
+<p>
+documentation---a documentation string; not evaluated 
+ </p>
+</li>
+<li>
+<p>
+forms---forms 
+ </p>
+</li>
+<li>
+<p>
+computation---a <a href="mobile-ambients.html#_g7167">
+computation</a>
+
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+fun returns a computation whose function is a function with the body 
+ of fun. 
+ </p>
+<pre>
+    (fun ...) === (make-fun #'(lambda () ...)) </pre>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7185">
+make-fun</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7188">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+input&nbsp;&nbsp;</td>
+<td class="lambda-list">
+name <em>&amp;body</em> body</td>
+<td class="symbol-type">
+&nbsp;[Macro]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+input name [[declaration* | documentation]] form* =&gt; input 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+name---a symbol naming a variable 
+ </p>
+</li>
+<li>
+<p>
+declaration---a declare expression; not evaluated 
+ </p>
+</li>
+<li>
+<p>
+documentation---a documentation string; not evaluated 
+ </p>
+</li>
+<li>
+<p>
+forms---forms 
+ </p>
+</li>
+<li>
+<p>
+input---an <a href="mobile-ambients.html#_g7169">
+input</a>
+process 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+input produces an input process whose function has the specified body, 
+ and within whose body name is bound to the received input value. 
+ </p>
+<pre>
+    (input x ...) === (make-input #'(lambda (x) ...)) </pre>
+<h4>
+See Also: </h4>
+<ul>
+<li>
+<p>
+<a href="mobile-ambients.html#_g7187">
+make-input</a>
+
+ </p>
+</li>
+</ul>
+</div>
+</div>
+<div class="defun">
+<div class="defunsignatures">
+<a id="_g7220">
+</a>
+<table cellpadding="0" cellspacing="0" width="100%">
+<colgroup span="3">
+<col width="0*"/>
+<col width="1*"/>
+<col width="0*"/>
+</colgroup>
+<tbody>
+<tr>
+<td class="symbol-name">
+with-lock-notifying&nbsp;&nbsp;</td>
+<td class="lambda-list">
+(manager <em>&amp;rest</em> args) <em>&amp;body</em> body</td>
+<td class="symbol-type">
+&nbsp;[Macro]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="doc-body">
+<h4>
+Syntax: </h4>
+<p>
+with-lock-notifying manager-form form* =&gt; result* 
+ </p>
+<h4>
+Arguments and Values: </h4>
+<ul>
+<li>
+<p>
+manager-form---a form, evaluated to produce a manager 
+ </p>
+</li>
+<li>
+<p>
+forms---forms 
+ </p>
+</li>
+<li>
+<p>
+results---the results of the forms 
+ </p>
+</li>
+</ul>
+<h4>
+Description: </h4>
+<p>
+with-lock-modifying locks the manager's lock, evaluates the body, and 
+ broadcasts on the manager's changedp condition variable (thus waking 
+ any threads waiting on it). 
+ </p>
+</div>
+</div>
+</div>
+<div class="cludg-footer">
+Generated by&nbsp;<a href="mailto:ihatchondo@common-lisp.net" lang="en">
+CLDOC</a>
+- 2011-02-09 16:07:53</div>
+</body>
+</html>
